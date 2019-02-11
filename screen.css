@@ -11,9 +11,10 @@ a:visited {
 a:hover {
 	color: gray;
 }
+
 body {
-	font-family: "Open Sans Condensed";
-	font-size: 20px;
+	font-family: "Open Sans";
+	font-size: 25px;
 	margin: 0;
 	padding: 0;
 }
@@ -62,10 +63,25 @@ img {
 	margin: 2% auto 2% auto;
 }
 
-.grid {
-	display: grid;
-	grid-template-columns: ;
+.grid-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 2%;
 }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  grid-template-rows: 200px 200px 200px;
+  grid-gap: 1rem;
+}
+
+.item {
+	background-color: gray;
+	width: 300px;
+	height: 200px;
+}
+
 .bar {
 	background-color: black;
 	height: 1px;
