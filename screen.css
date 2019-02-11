@@ -13,8 +13,9 @@ a:hover {
 }
 
 body {
-	font-family: "Open Sans";
-	font-size: 25px;
+	font-family: open-sans, sans-serif;
+	font-weight: 400;
+	font-style: normal;
 	margin: 0;
 	padding: 0;
 }
@@ -69,6 +70,7 @@ img {
 	align-items: center;
 	margin-bottom: 2%;
 }
+
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 300px);
@@ -89,6 +91,6 @@ img {
 }
 
 footer {
-	width: 800px;
+	width: 850px;
 	margin: auto;
 }
